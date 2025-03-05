@@ -1,0 +1,71 @@
+.header{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    /* background-color: darkslateblue; */
+    color: #333;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(215, 123, 183) ;
+}
+
+.logo-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 1.2rem;
+    font-style: var();
+    padding: 5px;
+}
+.logo{
+    border-radius: 50%;
+    height: 50px;
+}
+
+.content-lists{
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+}
+.content-lists li{
+    padding-right:15px ;
+    cursor: pointer;
+}
+.content-lists li:hover{
+    color: rgb(228, 100, 211);
+    transform: scale(1.2);
+
+}
+.icon-menu{
+    display: none;
+}
+.menu{
+    color: red;
+}
+
+
+.send-message-btn{
+    border: 1px solid rgb(251, 0, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+.send-message-btn:hover{
+    background-color: rgb(255, 0, 144);
+    color: darkslateblue;
+    cursor: pointer;
+}
+
+@media (max-width : 750px) {
+    /* .content-lists{
+        display: block;
+    } */
+    .send-message-btn{
+        display: none;
+    }
+    .icon-menu{
+        display: block;
+    }
+}
