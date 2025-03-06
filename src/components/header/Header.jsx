@@ -29,9 +29,9 @@ export default function Header() {
           </ul>
         </div>
         <div className="header-left">
-          <buttom className="send-message-btn">
+          <button className="send-message-btn">
             Send Me Message
-          </buttom>
+          </button>
         </div>
     </div>
   )
