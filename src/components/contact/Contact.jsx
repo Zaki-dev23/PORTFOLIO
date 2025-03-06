@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Contact.css";
+import "./contact.css";
 import { db } from "../../firebase-config";
 import { collection, getDocs, addDoc } from "firebase/firestore";
 
